@@ -1,12 +1,12 @@
 {
-  "name": "@nuxtjs/eslint-config",
+  "name": "@tettoffensive/eslint-config",
   "version": "2.0.2",
-  "description": "Nuxt.js eslint config",
-  "homepage": "https://github.com/nuxt/eslint-config/tree/master/packages/eslint-config",
-  "repository": "nuxt/eslint-config",
+  "description": "Modified Nuxt.js eslint config with Airbnb styling",
+  "homepage": "https://github.com/tettoffensive/eslint-config/tree/master/packages/eslint-config",
+  "repository": "tettoffensive/eslint-config",
   "license": "MIT",
   "contributors": [
-    "Alexander Lichter <npm@lichter.io>"
+    "Stuart Tett <npm@tettoffensive>"
   ],
   "files": [
     "index.js"

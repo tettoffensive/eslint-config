@@ -5,7 +5,7 @@ module.exports = {
     'jest/globals': true
   },
   extends: [
-    'standard',
+    'airbnb-standard',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:vue/recommended'
