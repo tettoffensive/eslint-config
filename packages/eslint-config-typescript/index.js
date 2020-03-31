@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@nuxtjs'
+    '@tettoffensive'
   ],
   plugins: ['@typescript-eslint'],
   parserOptions: {

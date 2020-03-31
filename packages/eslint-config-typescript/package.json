@@ -1,9 +1,9 @@
 {
-  "name": "@nuxtjs/eslint-config-typescript",
+  "name": "@tettoffensive/eslint-config-typescript",
   "version": "1.0.2",
-  "description": "Nuxt.js eslint typescript config",
-  "homepage": "https://github.com/nuxt/eslint-config/tree/master/packages/eslint-config-typescript",
-  "repository": "nuxt/eslint-config",
+  "description": "Airbnb styled Nuxt.js eslint typescript config",
+  "homepage": "https://github.com/tettoffensive/eslint-config/tree/master/packages/eslint-config-typescript",
+  "repository": "tettoffensive/eslint-config",
   "license": "MIT",
   "contributors": [
     "Kevin Marrec <kevin@marrec.io>"
@@ -12,7 +12,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@nuxtjs/eslint-config": "2.0.2",
+    "@tettoffensive/eslint-config": "2.0.2",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0"
   },
