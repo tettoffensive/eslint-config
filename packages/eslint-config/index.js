@@ -2,29 +2,29 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    'jest/globals': true
+    'jest/globals': true,
   },
   extends: [
-    'airbnb-standard',
+    'airbnb-base',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:vue/recommended'
+    'plugin:vue/recommended',
   ],
   plugins: [
     'jest',
     'unicorn',
-    'vue'
+    'vue',
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs'] }
-    }
+      node: { extensions: ['.js', '.mjs'] },
+    },
   },
   rules: {
 
-    /**********************/
+    /** ******************* */
     /* General Code Rules */
-    /**********************/
+    /** ******************* */
 
     // Enforce import order
     'import/order': 'error',
@@ -51,7 +51,7 @@ module.exports = {
     // Prefer const over let
     'prefer-const': ['error', {
       destructuring: 'any',
-      ignoreReadBeforeAssign: false
+      ignoreReadBeforeAssign: false,
     }],
 
     // No single if in an "else" block
@@ -75,9 +75,9 @@ module.exports = {
     // No useless destructuring/importing/exporting renames
     'no-useless-rename': 'error',
 
-    /**********************/
+    /** ******************* */
     /*   Unicorn Rules    */
-    /**********************/
+    /** ******************* */
 
     // Pass error message when throwing errors
     'unicorn/error-message': 'error',
@@ -115,18 +115,18 @@ module.exports = {
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
 
-    /**********************/
+    /** ******************* */
     /*     Vue Rules      */
-    /**********************/
+    /** ******************* */
 
     // Disable template errors regarding invalid end tags
     'vue/no-parsing-error': ['error', {
-      'x-invalid-end-tag': false
+      'x-invalid-end-tag': false,
     }],
 
     // Maximum 5 attributes per line instead of one
     'vue/max-attributes-per-line': ['error', {
-      singleline: 5
-    }]
-  }
-}
+      singleline: 5,
+    }],
+  },
+};
