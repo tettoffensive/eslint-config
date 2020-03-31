@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2020-03-31)
+
+
+### Bug Fixes
+
+* eslint-plugin-import ordering errors in windows ([39ad2b4](https://github.com/tettoffensive/eslint-config/commit/39ad2b46da470198f71ba111ee23d9b037a49a75))
+* eslint-plugin-import ordering errors in windows ([4f6f4a9](https://github.com/tettoffensive/eslint-config/commit/4f6f4a9566149e438bfdf9046f82151e050d7ce7))
+
+
+### Features
+
+* update eslint config packages ([a3bb0bf](https://github.com/tettoffensive/eslint-config/commit/a3bb0bfb923f18fd11447e048a29d11f29a3aa75))
+
+
+
+
+
 ## [2.0.2](https://github.com/nuxt/eslint-config/compare/@nuxtjs/eslint-config@2.0.1...@nuxtjs/eslint-config@2.0.2) (2020-02-09)
 
 
