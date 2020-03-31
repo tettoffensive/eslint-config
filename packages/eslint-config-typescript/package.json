@@ -1,6 +1,6 @@
 {
   "name": "@tettoffensive/eslint-config-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Airbnb styled Nuxt.js eslint typescript config",
   "homepage": "https://github.com/tettoffensive/eslint-config/tree/master/packages/eslint-config-typescript",
   "repository": "tettoffensive/eslint-config",
@@ -12,7 +12,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@tettoffensive/eslint-config": "2.0.2",
+    "@tettoffensive/eslint-config": "2.1.0",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0"
   },
