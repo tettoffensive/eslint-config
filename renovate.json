@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@nuxtjs"
+    "@tettoffensve"
   ],
   "lockFileMaintenance": {
     "enabled": true
